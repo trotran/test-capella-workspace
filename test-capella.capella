@@ -76,6 +76,8 @@
           id="e08517b6-a523-483e-acc8-0f93f7eb8802" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="f5d7c817-139c-4c68-8d24-75243146ee8a" name="Root System Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="21dec278-3311-4478-8cb3-5621210b29fc" name="TEST-FUNCTION-SALMA"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="1b7a487a-1e45-4a6b-a834-301da083abbf" targetElement="#6d443e7b-bcb4-4bc2-930b-e8fb37f09fb7"
               sourceElement="#f5d7c817-139c-4c68-8d24-75243146ee8a"/>
