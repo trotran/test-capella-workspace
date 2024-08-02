@@ -54,7 +54,21 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="bc40eac1-3618-4184-af27-d07a3266587b"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="d7272c41-b127-4a64-9864-cbfa6b9df70c"
-          name="Operational Entities"/>
+          name="Operational Entities">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="315a81a6-7352-44b7-9163-b4cabb59f9ba"
+            name="OA 1" abstractType="#3d3e44b9-0e75-4f6a-8ca8-533ec2582f37"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="63b880d7-0341-446b-a7e0-bd216bf865be"
+            name="OE 2" abstractType="#e63fb181-b466-464b-a930-ec6429d9ad46"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3d3e44b9-0e75-4f6a-8ca8-533ec2582f37"
+            name="OA 1" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e63fb181-b466-464b-a930-ec6429d9ad46"
+            name="OE 2">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ebb28a2c-585c-4ea4-b8ef-530f800c915c"
+              name="OE 3" abstractType="#c1ca636c-c8d9-47bd-b7ec-895b861f2df2"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c1ca636c-c8d9-47bd-b7ec-895b861f2df2"
+              name="OE 3"/>
+        </ownedEntities>
+      </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="648df279-1e5b-47b6-807f-4ab6a8e08c77" name="System Analysis">
