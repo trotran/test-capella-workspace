@@ -77,7 +77,12 @@
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="f5d7c817-139c-4c68-8d24-75243146ee8a" name="Root System Function">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="21dec278-3311-4478-8cb3-5621210b29fc" name="TEST-FUNCTION-SALMA"/>
+              id="cf49555c-2e19-48ee-92eb-0a0dc5127827" name="SF2"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="28c0920a-7298-4412-ac43-ef303e97868f" name="SF3">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="21dec278-3311-4478-8cb3-5621210b29fc" name="TEST-FUNCTION-SALMA"/>
+          </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="1b7a487a-1e45-4a6b-a834-301da083abbf" targetElement="#6d443e7b-bcb4-4bc2-930b-e8fb37f09fb7"
               sourceElement="#f5d7c817-139c-4c68-8d24-75243146ee8a"/>
