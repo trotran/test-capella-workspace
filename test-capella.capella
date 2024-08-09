@@ -46,7 +46,10 @@
             id="6d443e7b-bcb4-4bc2-930b-e8fb37f09fb7" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="c894f3d2-7e2a-4215-b714-789c745e6961" name="Operational Capabilities"/>
+          id="c894f3d2-7e2a-4215-b714-789c745e6961" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="611aeba1-b34a-45e0-a6c1-3c5dd5fee418" name="OC-Ayman"/>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="afa11548-0d52-4b78-9cba-aceb4a90dbe1" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
