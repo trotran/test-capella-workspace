@@ -62,6 +62,14 @@
             name="OA 1" abstractType="#3d3e44b9-0e75-4f6a-8ca8-533ec2582f37"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="63b880d7-0341-446b-a7e0-bd216bf865be"
             name="OE 2" abstractType="#e63fb181-b466-464b-a930-ec6429d9ad46"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8e49200f-824f-4e9d-bee6-1610ffe43205"
+            name="OA 3" abstractType="#fa4281df-23c6-451f-bf37-b22ef9d72d30"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="68b05ffa-5118-4afe-aecd-372e3a1d07bb"
+            name="OE 4" abstractType="#ebbde456-5954-4bb7-941c-456e5175f96c"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d654486d-01cb-4d7b-9818-8a0f2818c70d"
+            name="OE Ayman" abstractType="#3ca13d26-8caa-481f-a606-023ff984c072"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="1cde8a2b-2d0d-4f86-b81a-6af8f1f9ab0f"
+            name="OE Salma" abstractType="#b9b76ffe-5beb-41e2-80c0-a58367902f54"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3d3e44b9-0e75-4f6a-8ca8-533ec2582f37"
             name="OA 1" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e63fb181-b466-464b-a930-ec6429d9ad46"
@@ -71,6 +79,14 @@
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c1ca636c-c8d9-47bd-b7ec-895b861f2df2"
               name="OE 3"/>
         </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="fa4281df-23c6-451f-bf37-b22ef9d72d30"
+            name="OA 3" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ebbde456-5954-4bb7-941c-456e5175f96c"
+            name="OE 4"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3ca13d26-8caa-481f-a606-023ff984c072"
+            name="OE Ayman"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b9b76ffe-5beb-41e2-80c0-a58367902f54"
+            name="OE Salma"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
