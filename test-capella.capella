@@ -66,8 +66,6 @@
             name="OA 3" abstractType="#fa4281df-23c6-451f-bf37-b22ef9d72d30"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="68b05ffa-5118-4afe-aecd-372e3a1d07bb"
             name="OE 4" abstractType="#ebbde456-5954-4bb7-941c-456e5175f96c"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d654486d-01cb-4d7b-9818-8a0f2818c70d"
-            name="OE Ayman" abstractType="#3ca13d26-8caa-481f-a606-023ff984c072"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3d3e44b9-0e75-4f6a-8ca8-533ec2582f37"
             name="OA 1" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e63fb181-b466-464b-a930-ec6429d9ad46"
@@ -81,8 +79,6 @@
             name="OA 3" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ebbde456-5954-4bb7-941c-456e5175f96c"
             name="OE 4"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3ca13d26-8caa-481f-a606-023ff984c072"
-            name="OE Ayman"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
