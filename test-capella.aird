@@ -15,7 +15,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Contextual%20System%20Actors']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="test-capella.capella#5ad0681e-fb6c-4b3a-819b-5600217acbc4"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_AL25IFMfEe-j8qqu4dceGQ" name="[SFBD] Root System Function" repPath="#_ALWi0FMfEe-j8qqu4dceGQ" changeId="d381954e-9049-4f2a-ad7c-8c518d142d2d">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_AL25IFMfEe-j8qqu4dceGQ" name="[SFBD] Root System Function" repPath="#_ALWi0FMfEe-j8qqu4dceGQ" changeId="e8525746-adfd-4c94-b40a-ba49cab7e36b">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Function%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="test-capella.capella#f5d7c817-139c-4c68-8d24-75243146ee8a"/>
       </ownedRepresentationDescriptors>
@@ -480,6 +480,17 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_EZ0uYVMfEe-j8qqu4dceGQ" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EZ0uYlMfEe-j8qqu4dceGQ" x="250" y="295" width="70" height="70"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_wDc1kFmJEe-q-sf59wSUcw" type="2001" element="_wC8fQFmJEe-q-sf59wSUcw">
+          <children xmi:type="notation:Node" xmi:id="_wDiVIFmJEe-q-sf59wSUcw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_wDiVIVmJEe-q-sf59wSUcw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_wDlYcFmJEe-q-sf59wSUcw" type="3003" element="_wC-7gFmJEe-q-sf59wSUcw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_wDlYcVmJEe-q-sf59wSUcw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDlYclmJEe-q-sf59wSUcw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_wDc1kVmJEe-q-sf59wSUcw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDc1klmJEe-q-sf59wSUcw" x="1030" y="140" width="70" height="70"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_AMP6slMfEe-j8qqu4dceGQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_IR5zMFMfEe-j8qqu4dceGQ" type="4001" element="_IR2I0FMfEe-j8qqu4dceGQ" source="_ANa_YFMfEe-j8qqu4dceGQ" target="_EZ0uYFMfEe-j8qqu4dceGQ">
           <children xmi:type="notation:Node" xmi:id="_IR5zNFMfEe-j8qqu4dceGQ" type="6001">
@@ -525,6 +536,14 @@
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Square" uid="_AM5a8FMfEe-j8qqu4dceGQ" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Function%20Breakdown']/@defaultLayer/@nodeMappings[name='SFB_SystemFunction']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Function%20Breakdown']/@defaultLayer/@nodeMappings[name='SFB_SystemFunction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_wC8fQFmJEe-q-sf59wSUcw" name="Madicke" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="test-capella.capella#8d6a8e52-e683-4d40-9578-6408bf494915"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="test-capella.capella#8d6a8e52-e683-4d40-9578-6408bf494915"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_wC-7gFmJEe-q-sf59wSUcw" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Function%20Breakdown']/@defaultLayer/@nodeMappings[name='SFB_SystemFunction']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Function%20Breakdown']/@defaultLayer/@nodeMappings[name='SFB_SystemFunction']"/>
